@@ -2,10 +2,9 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/<name>''<age>')
-def home(name,age):
-    int()
-    return 'Hello ' + name + ' Your age is !'+age
+@app.route('/hello')
+def home():
+    return 'Hello World'
 
 
 if __name__ == '__main__':
